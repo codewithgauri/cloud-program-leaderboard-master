@@ -158,7 +158,7 @@ CORS_ALLOW_HEADERS = [
 CELERY_BEAT_SCHEDULE = {
     'generate-report': {
        'task': 'core.tasks.summary',
-       'schedule': 1200.0,
+       'schedule': 30.0,
     },
      
 }
